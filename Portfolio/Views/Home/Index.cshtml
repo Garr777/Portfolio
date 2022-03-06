@@ -1,8 +1,359 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="header">
+	<div class="container">
+		<div class="nav">
+			<div class="logo">
+				<h1>
+					<a href="#">
+						<span>P</span>REFACE
+					</a>
+				</h1>
+			</div>
+			<ul class="menu">
+				<li class="active" data-text="Home">Home</li>
+				<li data-text="About">About</li>
+				<li data-text="Services">Services</li>
+				<li data-text="Experience">Experience</li>
+				<li data-text="Portfolio">Portfolio</li>
+				<li data-text="Blog">Blog</li>
+				<li data-text="Contact">Contact</li>
+			</ul>
+		</div>
+		<div class="info_wrapper">
+			<div class="column">
+				<div class="info">
+					<h1 class="tooltip">Hi !</h1>
+					<h6 class="stack">UX & UI DESIGNER</h6>
+					<ul class="address">
+						<li>
+							<ul>
+								<li><b>NAME</b></li>
+								<li>I'M ROB LEE</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><b>D.O.B</b></li>
+								<li>23-06-1980</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><b>PHONE</b></li>
+								<li>+00 111 222 3333</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><b>ADDRESS</b></li>
+								<li>756 Global Place,New York.</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><b>E-MAIL</b></li>
+								<li><a href="mailto:example@mail.com"> mail@example.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li><b>WEBSITE</b></li>
+								<li><a href="http://w3layouts.com">www.myresume.com</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column auto">
+				<div class="image">
+					<img src="~/images/img1.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="slider_container">
+	<div class="slider_content image">
+	</div>
+	<div class="slider_content text">
+		<div class="pagination_wrapper">
+			<div class="pagination" id="slider_pagination">
+				<div class="button" data-item="0" data-active="true"></div>
+				<div class="button" data-item="1" data-active="false"></div>
+				<div class="button" data-item="2" data-active="false"></div>
+			</div>
+		</div>
+		<div class="items_wrapper">
+			<div class="items" id="slider">
+				<div class="item">
+					<div class="content">
+						<h2>Hi! I'm <span>Rob Lee</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
+						<div class="button">My Work</div>
+						<div class="button">Hire Me</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="content">
+						<h2>Hi! I'm <span>Rob Lee</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
+						<div class="button">My Work</div>
+						<div class="button">Hire Me</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="content">
+						<h2>Hi! I'm <span>Rob Lee</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
+						<div class="button">My Work</div>
+						<div class="button">Hire Me</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="services_container">
+	<div class="container">
+		<div class="container_header">
+			<div class="header_item">
+				<h4 class="tooltip">WHAT I DO?</h4>
+			</div>
+			<div class="header_item">
+				<h3>
+					MY
+					<span>SERVICES</span>
+				</h3>
+			</div>
+			<div class="header_item">
+				<div class="spacer"></div>
+			</div>
+		</div>
+		<div class="services_content">
+			<div class="row">
+				<div class="content_item">
+					<div class="icon">
+						<div class="icon_wrapper">
+							<div class="font-icon pencyl"></div>
+						</div>
+					</div>
+					<div class="text">
+						<h4>web design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+					</div>
+				</div>
+				<div class="content_item">
+					<div class="icon">
+						<div class="icon_wrapper">
+							<div class="font-icon pencyl"></div>
+						</div>
+					</div>
+					<div class="text">
+						<h4>web design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="content_item">
+					<div class="icon">
+						<div class="icon_wrapper">
+							<div class="font-icon pencyl"></div>
+						</div>
+					</div>
+					<div class="text">
+						<h4>web design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+					</div>
+				</div>
+				<div class="content_item">
+					<div class="icon">
+						<div class="icon_wrapper">
+							<div class="font-icon pencyl"></div>
+						</div>
+					</div>
+					<div class="text">
+						<h4>web design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="experience_container">
+	<div class="container">
+		<div class="container_header">
+			<div class="header_item">
+				<h4 class="tooltip">WHAT I DID</h4>
+			</div>
+			<div class="header_item">
+				<h3 class="default">
+					MY
+					<span>EXPERIENCE</span>
+				</h3>
+			</div>
+			<div class="header_item">
+				<div class="spacer default"></div>
+			</div>
+		</div>
+		<div class="experience_list">
+			<div class="item">
+				<div class="year">
+					<div class="content">
+						<div class="content_wrapper">2016</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="content">
+						fgfadg<br>
+						fgfadg<br>
+						fgfadg<br>
+						fgfadg<br>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="year">
+					<div class="content">
+						<div class="content_wrapper">2016</div>
+					</div>
+				</div>
+				<div class="company">
+					<div class="content">
+						fgfadg<br>
+						fgfadg<br>
+						fgfadg<br>
+						fgfadg<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio_container">
+	<div class="container">
+		<div class="container_header">
+			<div class="header_item">
+				<h4 class="tooltip">MY WORKS</h4>
+			</div>
+			<div class="header_item">
+				<h3 class="default">
+					MY
+					<span>PORTFOLIO</span>
+				</h3>
+			</div>
+			<div class="header_item">
+				<div class="spacer default"></div>
+			</div>
+		</div>
+	</div>
+	<div class="buttons_wrapper">
+		<div class="button" data-active="true">ALL</div>
+		<div class="button" data-active="false">WEB DESIGN</div>
+		<div class="button" data-active="false">MOBILE UI</div>
+		<div class="button" data-active="false">ILLUSTRATIONS</div>
+	</div>
+	<div class="content">
+		<div class="item">
+			<a href="#">
+				<img src="~/images/pic4.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic5.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic9.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic6.jpg">
+			</a>
+		</div>
+		<div class="item">
+			<a href="#">
+				<img src="~/images/pic10.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic11.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic13.jpg">
+			</a>
+			<a href="#">
+				<img src="~/images/pic14.jpg">
+			</a>
+		</div>
+	</div>
+</div>
+<!--
+	<div class="blogs_container">
+		<div class="container">
+			<div class="container_header">
+				<div class="header_item">
+					<h4 class="tooltip">BLOGS</h4>
+				</div>
+				<div class="header_item">
+					<h3 class="default">MY
+						<span>BLOGS</span>
+					</h3>
+				</div>
+				<div class="header_item">
+					<div class="spacer default"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+<div class="contact_container">
+	<div class="container">
+		<div class="container_header">
+			<div class="header_item">
+				<h4 class="tooltip">CONTACT ME</h4>
+			</div>
+			<div class="header_item">
+				<h3>
+					GET
+					<span>IN TOUCH WITH ME</span>
+				</h3>
+			</div>
+			<div class="header_item">
+				<div class="spacer"></div>
+			</div>
+		</div>
+		<div class="content_wrapper">
+			<div class="content">
+				<div class="item">
+					<div class="icon">
+						<div class="font-icon mail"></div>
+					</div>
+					<h4>Contact By Email</h4>
+					<span>Mail1: <a href="#">info@example1.com</a></span>
+					<span>Mail2: <a href="#">info@example2.com</a></span>
+				</div>
+				<div class="item">
+					<div class="icon">
+						<div class="font-icon mail"></div>
+					</div>
+					<h4>Contact By Phone</h4>
+					<span>Phone: +0000 123 312</span>
+					<span>Fax: +123 312</span>
+				</div>
+				<div class="item">
+					<div class="icon">
+						<div class="font-icon mail"></div>
+					</div>
+					<h4>Looking For Address</h4>
+					<span>Address: General Pvt 66, Dong Da</span>
+					<span>Hanoi, Vietnam.</span>
+				</div>
+			</div>
+			<div class="content">
+				@await Html.PartialAsync("Partial/_EmailPartial")
+			</div>
+		</div>
+	</div>
 </div>

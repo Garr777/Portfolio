@@ -1,0 +1,6 @@
+﻿@model Portfolio.Models.EmailViewModel
+<form asp-controller="Home" asp-action="PostEmail" method="post" enctype="multipart/form-data">
+	<input class="input" type="email" placeholder="Email" asp-for=Email />
+	<textarea class="textarea" placeholder="Message..." asp-for=Message></textarea>
+	<button class="button">Send</button>
+</form>

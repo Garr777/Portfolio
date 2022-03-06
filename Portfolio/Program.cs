@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Portfolio;
+using Portfolio.Middlewares;
 using Portfolio.Misc.Services.EmailService;
 
 
@@ -32,6 +33,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.UseAuthorization();
 

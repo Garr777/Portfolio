@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj": {}
+    "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
+    "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
         "projectName": "Portfolio.Misc",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj": {
+    "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj"
+              "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj"
               }
             }
           }

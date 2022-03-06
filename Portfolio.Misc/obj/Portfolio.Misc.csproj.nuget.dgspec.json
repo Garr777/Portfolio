@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {}
+    "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
+    "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
         "projectName": "Portfolio.Misc",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio.Misc\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Portfolio\\Portfolio.Misc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
